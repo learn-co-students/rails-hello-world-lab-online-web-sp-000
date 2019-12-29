@@ -1,11 +1,7 @@
 class StaticController < ApplicationController
 
-    def hello_world
-        render "hello_world"
-    end
-
-    def baloney_link
-      render "baloney_link"
-    end
-
+  def hello_world
+    #if I put: render "hello_world"  - it would be EXPLICIT
+  end
+  
 end
