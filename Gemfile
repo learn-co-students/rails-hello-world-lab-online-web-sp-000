@@ -45,4 +45,6 @@ group :development, :test do
   gem 'factory_bot'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'execjs'
+  gem 'therubyracer'
 end
