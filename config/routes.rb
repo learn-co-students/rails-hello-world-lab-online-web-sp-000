@@ -1,3 +1,3 @@
- Rails.application.routes.draw do
- root 'welcome#index"
+Rails.application.routes.draw do
+  get 'hello_world', to: 'static#hello_world'
 end
